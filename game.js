@@ -23,7 +23,7 @@ async function start() {
     engine.onRender = gameRender;
 }
 
-// Denna körs exakt 20 gånger i sekunden via motorn
+// Denna körs exakt 20 gåanger i sekunden via motorn
 function gameUpdate() {
     playerOldX = playerX;
     playerOldY = playerY;
